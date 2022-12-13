@@ -58,11 +58,35 @@
         border-radius: 7px;
         border-color: purple;
     }
-    .fstsectextbutton{
+        .fstsectextbutton{
         margin-top: 2%;
     }
     }
         /* 1st section end */
+
+        /* 2nd section start */
+    .horizontalone{
+     border: 1% solid gray;
+     width: 70%;
+     margin-top: 4%;
+}
+
+    .marketicon img{
+     height:30px;
+     padding-left: 50px;
+     padding-top: 3%;
+     margin-left: 50px;
+
+}
+    .thirdflex{
+        display: flex;
+    }
+    .horizontalonetwo{
+    border: 1% solid gray;
+    width: 70%;
+
+    }
+        /* 2nd section end */
 
 /* Desktop version design end */
 

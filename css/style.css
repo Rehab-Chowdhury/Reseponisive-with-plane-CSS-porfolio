@@ -28,6 +28,10 @@
         padding-left: 0%;
         padding-top: 2em;
     }
+
+        /*navigation bar desing end */
+
+        /* 1st section start */
     .flextwo{
         display: flex;
     }
@@ -58,8 +62,7 @@
         margin-top: 2%;
     }
     }
-    /*navigation bar desing end */
-
+        /* 1st section end */
 
 /* Desktop version design end */
 

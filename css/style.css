@@ -1,0 +1,65 @@
+/* Desktop version design start  */
+
+@media (min-width: 1025px) {
+    /* navigation bar design start */
+
+    .navflex{
+        display: flex;
+    }
+    nav > ul{
+        display: flex;
+    }
+    nav li{
+        list-style: none;
+        margin-right: 2.5em;
+    }
+    nav li a{
+        text-decoration: none;
+        font-size: 23px;
+        color: black;
+    }
+    .nav1{
+        font-size: 23px;
+        padding-right:34%;
+        padding-top: 0.5em;
+        margin-left: 4%;
+    }
+    .nav2{
+        padding-left: 0%;
+        padding-top: 2em;
+    }
+    .flextwo{
+        display: flex;
+    }
+    .introimg img{
+        height: 87%;
+        width:85%;
+        padding-left: 50%;
+        margin-top: 2em;
+    }
+    .fstsectext{
+    font-size: 60px;
+    padding-left: 1em;
+    }
+    .fstsecpragraph{
+        font-size: 20px;
+        padding-left: 10% ;
+    }
+    .fstsecbutton{
+        margin-left: 10%;
+        background-color: purple;
+        color: aliceblue;
+        height: 10%;
+        width: 25%;
+        border-radius: 7px;
+        border-color: purple;
+    }
+    .fstsectextbutton{
+        margin-top: 2%;
+    }
+    }
+    /*navigation bar desing end */
+
+
+/* Desktop version design end */
+

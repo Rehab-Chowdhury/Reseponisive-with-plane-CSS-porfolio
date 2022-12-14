@@ -61,21 +61,22 @@
         .fstsectextbutton{
         margin-top: 2%;
     }
-    }
+    
         /* 1st section end */
 
         /* 2nd section start */
     .horizontalone{
      border: 1% solid gray;
-     width: 70%;
+     width: 80%;
      margin-top: 4%;
 }
 
     .marketicon img{
-     height:30px;
-     padding-left: 50px;
+     height:65px;
+     width: 75px;
+     padding-left: 30px;
      padding-top: 3%;
-     margin-left: 50px;
+     margin-left: 71px;
 
 }
     .thirdflex{
@@ -83,10 +84,227 @@
     }
     .horizontalonetwo{
     border: 1% solid gray;
-    width: 70%;
+    width: 80%;
 
     }
         /* 2nd section end */
 
+
+        /* 3rd section start */
+
+        .thrdsectiontextone{
+            font-size: 25px;
+            text-align: center;
+            padding-top: 2em
+        }
+        .forthflex{
+            display: flex;
+            margin-left: 0%;
+        }
+        .productimg{
+            padding-left: %;
+            padding-top: 2%;
+            margin-left: 4em;
+            margin-top:2em;
+            border-radius: 20px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0,0.16),
+            0 3px 6px rgba(0,0,0,0.23);
+
+        }
+        .starimg{
+            padding-bottom : 20px;
+        }
+        .txtcenter{
+            padding-left: 5%;
+        }
+      
+        /* 3rd section end */ 
+       
+        /*4th section sart */
+
+        .lastflex{
+            display: flex;
+        }
+        .lastimg{
+            padding-top: 70px;
+            padding-left: 70px;
+        }
+        .lastsectionbox{
+            padding-top: 100px;
+            padding-left: 100px;
+            word-wrap: break-word;
+        }
+
+        /* 4th section end */
+
+        /* 5th the last one start */
+
+        .footer{
+            background-color: black;
+            color:whitesmoke;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 150px;
+        }
+
+        /* 5th the last one end */
+}
+
 /* Desktop version design end */
 
+/* laptop version design start */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* navigation bar design start */
+
+    .navflex{
+        display: flex;
+    }
+    nav > ul{
+        display: flex;
+    }
+    nav li{
+        list-style: none;
+        margin-right: 2.5em;
+    }
+    nav li a{
+        text-decoration: none;
+        font-size: 23px;
+        color: black;
+    }
+    .nav1{
+        font-size: 23px;
+        padding-right:34%;
+        padding-top: 0.5em;
+        margin-left: 4%;
+    }
+    .nav2{
+        padding-left: 0%;
+        padding-top: 2em;
+    }
+
+        /*navigation bar desing end */
+
+        /* 1st section start */
+    .flextwo{
+        display: flex;
+    }
+    .introimg img{
+        height: 87%;
+        width:85%;
+        padding-left: 50%;
+        margin-top: 2em;
+    }
+    .fstsectext{
+    font-size: 60px;
+    padding-left: 1em;
+    }
+    .fstsecpragraph{
+        font-size: 20px;
+        padding-left: 10% ;
+    }
+    .fstsecbutton{
+        margin-left: 10%;
+        background-color: purple;
+        color: aliceblue;
+        height: 10%;
+        width: 25%;
+        border-radius: 7px;
+        border-color: purple;
+    }
+        .fstsectextbutton{
+        margin-top: 2%;
+    }
+    
+        /* 1st section end */
+
+        /* 2nd section start */
+    .horizontalone{
+     border: 1% solid gray;
+     width: 80%;
+     margin-top: 4%;
+}
+
+    .marketicon img{
+     height:65px;
+     width: 75px;
+     padding-left: 30px;
+     padding-top: 3%;
+     margin-left: 71px;
+
+}
+    .thirdflex{
+        display: flex;
+    }
+    .horizontalonetwo{
+    border: 1% solid gray;
+    width: 80%;
+
+    }
+        /* 2nd section end */
+
+
+        /* 3rd section start */
+
+        .thrdsectiontextone{
+            font-size: 25px;
+            text-align: center;
+            padding-top: 2em
+        }
+        .forthflex{
+            display: flex;
+            margin-left: 0%;
+        }
+        .productimg{
+            padding-left: %;
+            padding-top: 2%;
+            margin-left: 4em;
+            margin-top:2em;
+            border-radius: 20px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0,0.16),
+            0 3px 6px rgba(0,0,0,0.23);
+
+        }
+        .starimg{
+            padding-bottom : 20px;
+        }
+        .txtcenter{
+            padding-left: 5%;
+        }
+      
+        /* 3rd section end */ 
+       
+        /*4th section sart */
+
+        .lastflex{
+            display: flex;
+        }
+        .lastimg{
+            padding-top: 70px;
+            padding-left: 70px;
+        }
+        .lastsectionbox{
+            padding-top: 100px;
+            padding-left: 100px;
+            word-wrap: break-word;
+        }
+
+        /* 4th section end */
+
+        /* 5th the last one start */
+
+        .footer{
+            background-color: black;
+            color:whitesmoke;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 150px;
+        }
+
+        /* 5th the last one end */
+}
+
+
+    /* laptop version design end */

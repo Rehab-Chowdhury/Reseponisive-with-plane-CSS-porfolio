@@ -138,6 +138,15 @@
             padding-left: 100px;
             word-wrap: break-word;
         }
+        .lastparraghraphtgtb{
+            font-size: 25px;
+            width: 80%;
+        }
+        .lastbutton{
+            margin-left: -5px;
+            height: 34px;
+            width: 130px;
+        }
 
         /* 4th section end */
 
@@ -297,6 +306,15 @@
             padding-left: 100px;
             word-wrap: break-word;
         }
+        .lastparraghraphtgtb{
+            font-size: 25px;
+            width: 80%;
+        }
+        .lastbutton{
+            margin-left: -5px;
+            height: 34px;
+            width: 130px;
+        }
 
         /* 4th section end */
 
@@ -451,4 +469,27 @@
         margin-left: -2px;
     }
     /* 4th section end */
+
+
+    /* 5th section start */
+
+    .footer{
+        background-color: black;
+        color:whitesmoke;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 150px;
+        height: 45px;
+    }
+    .footerhthree{
+        font-size: 16px;
+        margin-top: -8px;
+    }
+    .footerparagrph{
+        font-size: 10px;
+        margin-top: -7px;
+    }
+
+    /* 5th section end */
 }

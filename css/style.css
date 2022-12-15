@@ -60,6 +60,7 @@
     }
         .fstsectextbutton{
         margin-top: 2%;
+        width: 47%;
     }
     
         /* 1st section end */
@@ -116,6 +117,9 @@
         }
         .txtcenter{
             padding-left: 5%;
+        }
+        .secthreeonlytablet{
+            display: none;
         }
       
         /* 3rd section end */ 
@@ -215,6 +219,7 @@
     }
         .fstsectextbutton{
         margin-top: 2%;
+        width: 47%;
     }
     
         /* 1st section end */
@@ -272,6 +277,9 @@
         .txtcenter{
             padding-left: 5%;
         }
+        .secthreeonlytablet{
+            display: none;
+        }
       
         /* 3rd section end */ 
        
@@ -308,3 +316,139 @@
 
 
     /* laptop version design end */
+
+
+    /* tablet and mobile screen roted version start */
+
+    @media (min-width:481px) and (max-width:768px) {
+        /* nav bar design start */
+
+        .fsth2{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 30px;
+        }
+        nav > ul{
+            display: flex;
+    }
+    nav li{
+        list-style: none;
+        margin-right: 2em;
+    }
+    nav li a{
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+    }
+
+    /* nav bar design end */
+
+    /* 1st section design start */
+
+    .flextwo{
+        display: flex;
+    }
+
+    .introimg img{
+        height: 95%;
+        width:85%;
+        padding-left: 11%;
+        margin-top: 0em;
+    }
+    .fstsectext{
+        font-size: 25px;
+        padding-left: 1em;
+        height: 40px;
+
+    }
+    .fstsecpragraph{
+        font-size: 11px;
+        padding-left: 10% ;       
+    }
+    .fstsecbutton{
+        margin-left: 10%;
+        background-color: purple;
+        color: aliceblue;
+        height: 12%;
+        width: 30%;
+        border-radius: 7px;
+        border-color: purple;
+        font-size: 9px
+    }
+    .horizontalone{
+        border: 1% solid gray;
+        width: 80%;
+        margin-top: 4%;
+   }
+   .marketicon img{
+    height:18px;
+    width: 30px;
+    padding-left: 15px;
+    padding-top: 3%;
+    margin-left: 16px;
+
+    }
+    .thirdflex{
+        display: flex;
+    }
+    .horizontalonetwo{
+        border: 1% solid gray;
+        width: 80%;
+    
+        }
+        .thrdsectiontextone{
+            font-size: 20px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .secthree{
+            display: none;
+        }
+        .forthflex{
+            display: flex;
+            
+        }
+        .productimg{
+            padding-left: %;
+            padding-top: 2%;
+            margin-left: 1.5em;
+            margin-top:2em;
+
+            border-radius: 20px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0,0.16),
+            0 3px 6px rgba(0,0,0,0.23);
+
+        }
+        .txtcenter{
+            padding-left: 5%;
+        }
+
+
+
+    /* tablet and mobile screen roted version end */
+
+
+    /* 4th section start */
+
+    .lastflex{
+        display: flex;
+    }
+    .lastimg img{
+        height: 120px;
+        padding-top: 50px;
+    }
+    .lastsectionbox{
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+    .lasrhonetagtb{
+        font-size: 20px;
+    }
+    .lastparraghraphtgtb{
+        font-size: 10px;
+    }
+    .lastbutton{
+        margin-left: -2px;
+    }
+    /* 4th section end */
+}
